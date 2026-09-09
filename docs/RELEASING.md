@@ -1,5 +1,14 @@
 # Releasing
 
+## Release text and publication updates
+
+Follow [Release writing](RELEASE_WRITING.md) for the release title and body,
+changelog categories, contributor attribution, and publication result format.
+Use the complete version in the GitHub Release title; keep any native display
+label separate. Prepare and review the body before publication, then read back
+the title, body, target, flags, and assets from each affected provider.
+A hosted draft still requires publication authority.
+
 ## Contract
 
 - Release owner: Nikita Melnychenko (QenTerra)
@@ -31,6 +40,7 @@ Run the complete gate against the intended release tree:
 
 ```sh
 node scripts/verify-repository.mjs
+node --test scripts/release-notes.test.mjs
 ```
 
 It validates source, dependencies, tests, the production extension, the Pages

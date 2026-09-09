@@ -1,17 +1,20 @@
+# Generated notes are a draft; edit against CHANGELOG.md before publication.
 changelog:
   exclude:
     labels:
       - 'release: skip-notes'
-    authors:
-      - dependabot
   categories:
     - title: Added
       labels: ['type: feature']
-    - title: Fixed
-      labels: ['type: bug', 'type: security']
     - title: Changed
-      labels: ['type: performance', 'type: refactor', 'type: dependency']
-    - title: Documentation
-      labels: ['type: documentation']
+      labels: ['type: performance', 'type: refactor', 'type: dependency', 'type: documentation']
+    - title: Deprecated
+      labels: ['type: deprecation']
+    - title: Removed
+      labels: ['type: removal']
+    - title: Fixed
+      labels: ['type: bug']
+    - title: Security
+      labels: ['type: security']
     - title: Other changes
       labels: ['*']
