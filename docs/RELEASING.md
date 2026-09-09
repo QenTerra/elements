@@ -2,7 +2,7 @@
 
 ## Release text and publication updates
 
-Follow [Release writing](release-writing.md) for the release title and body,
+Follow [Release writing](RELEASE_WRITING.md) for the release title and body,
 changelog categories, contributor attribution, and publication result format.
 Use the complete version in the GitHub Release title; keep any native display
 label separate. Prepare and review the body before publication, then read back

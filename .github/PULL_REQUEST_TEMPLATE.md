@@ -1,4 +1,4 @@
-<!-- Follow CONTRIBUTING.md and docs/release-writing.md. Complete required fields and remove optional empty sections. -->
+<!-- Follow CONTRIBUTING.md and docs/RELEASE_WRITING.md. Complete required fields and remove optional empty sections. -->
 
 ## Purpose
 
