@@ -26,6 +26,15 @@ there, then removes them after the gate. Set
 `ELEMENTS_KEEP_VERIFY_WORKSPACE=1` only when you need to inspect that external
 workspace.
 
+## Commit and review format
+
+Follow [Release writing](docs/release-writing.md) for commit grammar, PR and review
+comment templates, changelog entries, release notes, and publication updates.
+Write in English, use a specific Conventional Commit subject of at most 72
+characters, and keep one coherent outcome per change. Breaking changes include
+a migration footer. PR descriptions use the repository template's section order;
+review findings explain the condition, consequence, and requested change.
+
 ## Pull requests
 
 - Keep one change per pull request.

@@ -18,7 +18,7 @@ if (tag !== expected)
   throw new Error(`Release tag ${tag} does not match package version ${expected}`)
 
 const escapedVersion = packageJson.version.replaceAll('.', '\\.')
-const releaseHeader = new RegExp(`^## \\[${escapedVersion}\\] — (\\d{4}-\\d{2}-\\d{2})$`, 'm')
+const releaseHeader = new RegExp(`^## \\[${escapedVersion}\\] (?:—|-) (\\d{4}-\\d{2}-\\d{2})$`, 'm')
 const match = changelog.match(releaseHeader)
 if (!match) {
   throw new Error(

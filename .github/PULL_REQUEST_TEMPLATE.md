@@ -1,6 +1,8 @@
+<!-- Follow CONTRIBUTING.md and docs/release-writing.md. Complete required fields and remove optional empty sections. -->
+
 ## Purpose
 
-Describe the problem and the observable outcome.
+Describe the problem, trigger, and observable outcome in plain English unless the project selects another language. Use sentence case, concrete facts, and no decorative headings. Rewrite this description to match the final diff before review.
 
 ## Scope
 
